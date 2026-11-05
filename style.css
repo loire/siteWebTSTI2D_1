@@ -81,7 +81,7 @@ img {
 .cards {
     display: flex;
     gap: 20px;
-    flex-wrap;      
+    flex-wrap : wrap;      
 }
 
 .card {
