@@ -81,6 +81,7 @@ img {
 .cards {
     display: flex;
     gap: 20px;
+    flex-wrap;      
 }
 
 .card {
