@@ -5,20 +5,21 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    font-size: 16px;
     color: #20343a;
     background-color: #7FEBD1;
     line-height: 1.6;
 }
 
 .hero {
-    padding: 48px 20px;
+    padding: 49px 22px;
     text-align: center;
-    background-color: #d9f0e9;
+    background-color: #9dcf9d;
 }
 
 .hero h1 {
     margin: 8px 0;
-    color: #087f8c;
+    color: #330ec7;
     font-size: clamp(2rem, 5vw, 3rem);
     line-height: 1.15;
 }
@@ -31,7 +32,7 @@ body {
     font-size: 0.8rem;
     font-weight: bold;
     letter-spacing: 0.18em;
-    color: #176b62;
+    color: #087c69;
 }
 
 nav {
@@ -43,16 +44,16 @@ nav {
 }
 
 a {
-    color: #087f8c;
+    color: #8f1616;
 }
 
 nav a {
     font-weight: bold;
-    text-decoration: none;
+    text-decoration: underline ;
 }
 
 a:hover {
-    color: #d05b35;
+    color: #d03563;
     text-decoration: underline;
 }
 
@@ -66,7 +67,7 @@ section {
 }
 
 h2, h3 {
-    color: #176b62;
+    color: #b3cdf2;
     line-height: 1.25;
 }
 
@@ -74,12 +75,12 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
-    border-radius: 12px;
+    border-radius: 20px;
 }
 
 .cards {
     display: flex;
-    gap: 16px;
+    gap: 20px;
 }
 
 .card {
@@ -87,7 +88,7 @@ img {
     padding: 20px;
     background-color: #fff;
     border: 1px solid #dce7e4;
-    border-radius: 12px;
+    border-radius: 20px;
     box-shadow: 0 3px 12px #183b3b18;
 }
 
@@ -97,7 +98,7 @@ img {
 
 footer {
     padding: 20px;
-    text-align: center;
+    text-align: left ;
     background-color: #20343a;
     color: #fff;
 }
@@ -116,7 +117,10 @@ footer p {
     }
 
     main {
-        width: min(100% - 24px, 1000px);
+        width: min(100% - 24px, 999px);
         margin-top: 24px;
     }
+}
+.intro {
+    font-size: 1.25rem;
 }
